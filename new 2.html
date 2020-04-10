@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>closure</title>
+<script>
+function addnumbers(firstno,secondno)
+{
+var returnvalue="result is:";
+function add()
+{
+return returnvalue+(firstno+secondno);
+}
+return add();
+}
+var result=addnumbers(10,20);
+document.write(result);
+</script>
+</head>
+<body></body>
+</html>
