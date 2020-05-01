@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>regular expression</title>
+</head>
+<body>
+    <form>
+        <input id="name" type="text"  placeholder="username"><br><br>
+        <button onclick="valid()">SUBMIT</button>
+    </form>
+    <script>
+        function valid(){
+            var username = document.getElementById('name').value;
+            var regx=/tushar/;
+            if(regx.test(username))
+            {
+                alert("valid username");
+            }else
+            {
+                alert("invalid username");
+            }
+        }
+    </script>
+</body>
+</html>
