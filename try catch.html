@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            try catch
+        </title>
+    </head>
+    <body>
+    <script>
+        function code(){
+            var a = 26;
+            try {
+                var s=a.uppercase();
+                alert("value of a: "+a);
+            } catch (e) {
+                alert("error occured");
+            }
+            finally{
+                alert("this box will execute always");
+            }
+        }
+    </script>
+    <p>click the following:</p>
+    <form>
+        <input type="button" value="CLICK ME!" onclick="code()"/>
+    </form>
+    </body>
+</html>
